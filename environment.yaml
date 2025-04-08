@@ -1,0 +1,13 @@
+name: llm_mlflow_demo_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - transformers
+      - datasets
+      - torch
+      - mlflow
+      - pyyaml
